@@ -8,8 +8,14 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 img {
   width: 100%;
+}
+
+header {
+  display: flex;
+  margin: 1.5rem;
 }
 
 main {
@@ -22,22 +28,10 @@ main {
   background-color: #e2e2e2;
 }
 
-.link {
-  display: block;
-  text-align: center;
-  background-color: #333;
-}
-
 .knights {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
-}
-
-.link2 {
-  display: block;
-  text-align: center;
-  background-color: #333;
 }
 
 .dragon {
@@ -46,19 +40,13 @@ main {
   background-color: #aaa;
 }
 
-.link3 {
-  display: block;
-  text-align: center;
-  background-color: #333;
-}
-
 .ships {
   display: flex;
   flex-direction: column;
   background-color: #999;
 }
 
-.link4 {
+.link {
   display: block;
   text-align: center;
   background-color: #333;
@@ -67,4 +55,11 @@ main {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.img {
+  display: flex;
+  width: 25%;
+  align-items: center;
+
 }
