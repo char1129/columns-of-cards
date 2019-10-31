@@ -1,0 +1,9 @@
+html {
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5rem;
+  color: #333;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
