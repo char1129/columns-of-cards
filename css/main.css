@@ -11,55 +11,86 @@ html {
 
 img {
   width: 100%;
+  margin: 0 0 1.5rem;
 }
 
+.img {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+
+}
 header {
   display: flex;
-  margin: 1.5rem;
+  font-size: 1em;
+  justify-content: center;
 }
 
 main {
   display: flex;
+  margin: 0;
+  flex-grow: 2;
 }
 
 .anderon {
   display: flex;
   flex-direction: column;
   background-color: #e2e2e2;
+  justify-content: space-between;
+  padding: .75em;
+  margin: 0;
 }
 
 .knights {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
+  justify-content: space-between;
+  padding: .75em;
+  margin: 0;
 }
 
 .dragon {
   display: flex;
   flex-direction: column;
   background-color: #aaa;
+  justify-content: space-between;
+  padding: .75em;
+  margin: 0;
 }
 
 .ships {
   display: flex;
   flex-direction: column;
   background-color: #999;
+  justify-content: space-between;
+  padding: .75em;
+  margin: 0;
+}
+
+.book {
+  font-weight: bold;
+}
+
+.author {
+  font-style: italic;
 }
 
 .link {
-  display: block;
-  text-align: center;
+  display: flex;
+  text-align: left;
   background-color: #333;
+  margin: 0;
+  padding: .75em;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background-color: #000;
 }
 
 a {
   color: #fff;
   text-decoration: none;
-}
-
-.img {
-  display: flex;
-  width: 25%;
-  align-items: center;
-
+  font-size: .875em;
 }
