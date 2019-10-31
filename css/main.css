@@ -7,3 +7,32 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+}
+
+.anderon {
+  display: flex;
+  flex-direction: column;
+}
+
+.knights {
+  display: flex;
+  flex-direction: column;
+}
+
+.dragon {
+  display: flex;
+  flex-direction: column;
+}
+
+.ships {
+  display: flex;
+  flex-direction: column;
+}
