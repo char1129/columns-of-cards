@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5rem;
   color: #000;
 }
@@ -18,8 +18,8 @@ img {
 .img {
   width: 25%;
   justify-content: flex-start;
-
 }
+
 header {
   display: flex;
   font-size: 1em;
