@@ -9,21 +9,24 @@ html {
   box-sizing: inherit;
 }
 
+.img {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
 img {
   display: block;
   width: 100%;
   margin: 0 0 1.5rem;
 }
 
-.img {
-  width: 25%;
-  justify-content: flex-start;
-}
-
 header {
   display: flex;
   font-size: 1em;
+  font-weight: bold;
   justify-content: center;
+  margin: 1rem 0;
 }
 
 main {
@@ -73,11 +76,17 @@ body {
 }
 
 .book {
+  margin: 0;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .author {
   font-style: italic;
+}
+
+p {
+  margin: 0 0 1.5rem;
 }
 
 a {
@@ -92,7 +101,6 @@ a {
   font-size: 1.125rem;
   padding: .4em .75em .3em;
   border-radius: 8px;
-  border: 3px solid #333;
   text-decoration: none;
   color: #fff;
   background-color: #333;
