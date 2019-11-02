@@ -51,32 +51,37 @@ img {
 .anderon {
   padding: .75em;
   background-color: #e2e2e2;
+  border-left: 1px solid #333;
 }
 
 .anderon p {
   margin: 0 0 3rem;
 }
 
-.dragon p {
-  margin: 0 0 3rem;
-}
-
 .knights {
   padding: .75em;
   background-color: #ccc;
+  border-left: 1px solid #333;
 }
 
 .dragon {
   padding: .75em;
   background-color: #aaa;
+  border-left: 1px solid #333;
+}
+
+.dragon p {
+  margin: 0 0 3rem;
 }
 
 .ships {
   padding: .75em;
   background-color: #999;
+  border-left: 1px solid #333;
 }
 
 .booktitle {
+  display: inline-block;
   margin: 0;
   font-size: 1rem;
   font-weight: bold;
@@ -84,6 +89,7 @@ img {
 
 .author {
   font-style: italic;
+  font-size: .875rem;
 }
 
 p {
