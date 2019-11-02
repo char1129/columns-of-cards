@@ -39,40 +39,29 @@ header {
   justify-content: center;
 }
 
-.anderon {
+
+.anderon .knights .dragon .ships {
   display: flex;
   flex-direction: column;
-  background-color: #e2e2e2;
   justify-content: space-between;
   padding: .75em;
   margin: 0;
+}
+
+.anderon {
+  background-color: #e2e2e2;
 }
 
 .knights {
-  display: flex;
-  flex-direction: column;
   background-color: #ccc;
-  justify-content: space-between;
-  padding: .75em;
-  margin: 0;
 }
 
 .dragon {
-  display: flex;
-  flex-direction: column;
   background-color: #aaa;
-  justify-content: space-between;
-  padding: .75em;
-  margin: 0;
 }
 
 .ships {
-  display: flex;
-  flex-direction: column;
   background-color: #999;
-  justify-content: space-between;
-  padding: .75em;
-  margin: 0;
 }
 
 .book {
