@@ -10,7 +10,11 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: 0 1 1rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 .feature {
@@ -25,8 +29,7 @@ body {
 }
 
 .img {
-  display: flex;
-  justify-content: center;
+  text-align: : center;
   width: 25%;
   margin: 0;
 }
@@ -45,8 +48,16 @@ img {
 }
 
 .anderon {
-    padding: .75em;
+  padding: .75em;
   background-color: #e2e2e2;
+}
+
+.anderon p {
+  margin: 0 0 3rem;
+}
+
+.dragon p {
+  margin: 0 0 3rem;
 }
 
 .knights {
@@ -82,6 +93,7 @@ a {
   color: #f2f2f2;
   text-decoration: none;
   font-size: .875em;
+  align-self: flex-end;
 }
 
 .link {
