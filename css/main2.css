@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1rem;
 }
 
 .feature {
@@ -40,24 +40,27 @@ img {
 .anderon .knights .dragon .ships {
   display: flex;
   justify-content: space-between;
-  padding: .75em;
   margin: 0;
   flex-grow: 1;
 }
 
 .anderon {
+    padding: .75em;
   background-color: #e2e2e2;
 }
 
 .knights {
+  padding: .75em;
   background-color: #ccc;
 }
 
 .dragon {
+  padding: .75em;
   background-color: #aaa;
 }
 
 .ships {
+  padding: .75em;
   background-color: #999;
 }
 
@@ -81,6 +84,10 @@ a {
   font-size: .875em;
 }
 
+.link {
+  align-self: flex-end;
+}
+
 .btn {
   display: flex;
   margin: 0;
@@ -94,7 +101,6 @@ a {
 
 .btn-small {
   font-size: .875rem;
-  align-self: flex-end;
 }
 
 .btn:hover {
